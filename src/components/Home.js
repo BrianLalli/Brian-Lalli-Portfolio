@@ -18,21 +18,25 @@ const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: "☕",
-      text: "fueled by coffee",
+      emoji: "☕ 🍵",
+      text: "Fueled by coffee & greens",
     },
     {
-      emoji: "🌎",
-      text: "based in the US",
+      emoji: "🌎 🤠",
+      text: "Based in Austin,TX",
     },
+    // {
+    //   emoji: "💼 👨‍💻",
+    //   text: "Principal Program Manager @ Whole Foods Market",
+    // },
     {
-      emoji: "💼",
-      text: "Principal Program Manager @ Whole Foods Market",
-    },
-    {
-      emoji: "📧",
+      emoji: "📧 📱",
       text: "bdlalli11@gmail.com",
     },
+    {
+      emoji: "🐕 🌙",
+      text: "Dog Dad to a 1 year old Rottsky named Moonie"
+    }
   ],
   socials: [
     {
@@ -63,40 +67,7 @@ const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-  skills: {
-    proficientWith: [
-      "javascript",
-      "react",
-      "git",
-      "github",
-      "bootstrap",
-      "html5",
-      "css3",
-      "figma",
-    ],
-    exposedTo: ["nodejs", "python", "adobe illustrator"],
-  },
-  hobbies: [
-    {
-      label: "reading",
-      emoji: "📖",
-    },
-    {
-      label: "theater",
-      emoji: "🎭",
-    },
-    {
-      label: "movies",
-      emoji: "🎥",
-    },
-    {
-      label: "cooking",
-      emoji: "🌶",
-    },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
-  ],
+  
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
