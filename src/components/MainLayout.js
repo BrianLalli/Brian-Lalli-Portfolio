@@ -6,6 +6,7 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import Resume from "./Resume";
 
 export default function MainLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -26,6 +27,7 @@ export default function MainLayout() {
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/resume'} element={<Resume/>}/>
                </Routes>
             </Grid>
             <Grid item>

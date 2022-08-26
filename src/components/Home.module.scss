@@ -32,6 +32,7 @@ a {
   transition: color 200ms ease;
 }
 
+// make hidden unless hovered over
 a:hover {
   color: $lightgray;
   transition: color 200ms ease;

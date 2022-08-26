@@ -2,6 +2,7 @@ import React from 'react';
 import PortfolioBlock from "./PortfolioBlock";
 import {Box, Grid} from "@mui/material";
 // import {info} from "../../info/Info";
+import homepage from "../img/Homepage.png"
 
 let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -19,7 +20,7 @@ const info = {
       title: "Project 1",
       live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: "https://via.placeholder.com/150",
+      image: homepage,
     },
     {
       title: "Project 2",
