@@ -2,7 +2,9 @@ import React from 'react';
 import PortfolioBlock from "./PortfolioBlock";
 import {Box, Grid} from "@mui/material";
 // import {info} from "../../info/Info";
-import homepage from "../img/Homepage.png"
+import Project1 from "../img/Project1.png";
+import Project2 from "../img/Project2.png";
+import Project6 from "../img/Project6.png";
 
 let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -18,33 +20,45 @@ const info = {
     // This is where your portfolio projects will be detailed
     {
       title: "Project 1",
-      live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: homepage,
+      description: "Simplified Project Management Tool",
+      live: "https://quartzg3.herokuapp.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: "https://github.com/BrianLalli/Quartz", // this should be a link to the **repository** of the project, where the code is hosted.
+      image: Project1,
     },
     {
       title: "Project 2",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: "https://via.placeholder.com/150",
+      description: "Elected Government Representative Donation Tracker",
+      live: "https://brianlalli.github.io/Show-Me-The-Money/",
+      source: "https://github.com/BrianLalli/Show-Me-The-Money",
+      image: Project2,
     },
     {
       title: "Project 3",
+      description: "React Bucket List",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
       image: "https://via.placeholder.com/150",
     },
     {
       title: "Project 4",
+      description: "",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
       image: "https://via.placeholder.com/150",
     },
     {
       title: "Project 5",
+      description: "",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
       image: "https://via.placeholder.com/150",
+    },
+    {
+      title: "Project 6",
+      description: "",
+      live: "https://brianlalli.github.io/Portfolio/",
+      source: "https://github.com/BrianLalli/Portfolio",
+      image: Project6,
     },
   ],
 }
