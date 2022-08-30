@@ -24,10 +24,10 @@ export default function MainLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
-                  <Route exact path={'/Brian-Lalli-Portfolio/'} element={<Home/>}/>
-                  <Route exact path={'/Brian-Lalli-Portfolio/about'} element={<About/>}/>
-                  <Route exact path={'/Brian-Lalli-Portfolio/portfolio'} element={<Portfolio/>}/>
-                  <Route exact path={'/Brian-Lalli-Portfolio/resume'} element={<Resume/>}/>
+                  <Route exact path={'/brian-lalli-portfolio/'} element={<Home/>}/>
+                  <Route exact path={'/brian-lalli-portfolio/about'} element={<About/>}/>
+                  <Route exact path={'/brian-lalli-portfolio/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/brian-lalli-portfolio/resume'} element={<Resume/>}/>
                </Routes>
             </Grid>
             <Grid item>
