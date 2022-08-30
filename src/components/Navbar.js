@@ -8,12 +8,12 @@ import {Box} from "@mui/material";
 const links = [
     {
         name: 'Home',
-        to: '/',
+        to: '/Brian-Lalli-Portfolio/',
         active: 'home'
     },
     {
         name: 'About Me',
-        to: '/about',
+        to: '/Brian-Lalli-Portfolio/about',
         active: 'about'
     },
     {
@@ -24,12 +24,12 @@ const links = [
     },
     {
         name: 'Portfolio',
-        to: '/portfolio',
+        to: '/Brian-Lalli-Portfolio/portfolio',
         active: 'portfolio'
     },
     {
         name: 'Resume',
-        to: '/resume',
+        to: '/Brian-Lalli-Portfolio/resume',
         active: 'resume'
     },
 ]
