@@ -4,6 +4,9 @@ import {Box, Grid} from "@mui/material";
 // import {info} from "../../info/Info";
 import Project1 from "../img/Project1.png";
 import Project2 from "../img/Project2.png";
+import Project3 from "../img/Project3.png";
+import Project4 from "../img/Project4.png";
+import Project5 from "../img/Project5.png";
 import Project6 from "../img/Project6.png";
 
 let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -37,25 +40,25 @@ const info = {
       description: "React Bucket List",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
-      image: "https://via.placeholder.com/150",
+      image: Project3,
     },
     {
       title: "Project 4",
-      description: "",
+      description: "Text Editor PWA",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: "https://via.placeholder.com/150",
+      source: "https://github.com/BrianLalli/text-editor",
+      image: Project4,
     },
     {
-      title: "Project 5",
+      title: "Reserved for 3rd Group Project",
       description: "",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
-      image: "https://via.placeholder.com/150",
+      image: Project5,
     },
     {
       title: "Project 6",
-      description: "",
+      description: "Original Portfolio from 6/22 using HTML & CSS",
       live: "https://brianlalli.github.io/Portfolio/",
       source: "https://github.com/BrianLalli/Portfolio",
       image: Project6,
@@ -69,7 +72,7 @@ export default function Portfolio() {
             <Grid container display={'flex'} justifyContent={'center'}>
                 {info.portfolio.map((project, index) => (
                    <Grid item xs={12} md={6} key={index}>
-                       <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />
+                       <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} description={project.description} />
                    </Grid>
                 ))}
             </Grid>

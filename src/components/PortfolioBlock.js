@@ -24,7 +24,7 @@ function PortfolioBlock(props) {
         flexDirection={"column"}
         justifyContent={"center"}
         alignItems={"center"}/>
-        <h1 style={{ fontSize: "2rem" }}>{description}</h1>
+        <p style={{ fontSize: "1.5rem" }}>{description}</p>
         <Box
           className={"portfolio"}
           display={"flex"}
