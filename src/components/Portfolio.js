@@ -38,22 +38,22 @@ const info = {
     {
       title: "Project 3",
       description: "React Bucket List",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      live: "https://github.com/BrianLalli/bucket-list",
+      source: "https://github.com/BrianLalli/bucket-list",
       image: Project3,
     },
     {
       title: "Project 4",
       description: "Text Editor PWA",
-      live: "https://paytonpierce.dev",
+      live: "https://github.com/BrianLalli/text-editor",
       source: "https://github.com/BrianLalli/text-editor",
       image: Project4,
     },
     {
       title: "Reserved for 3rd Group Project",
       description: "",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      live: "https://github.com/BrianLalli/group-project-3",
+      source: "https://github.com/BrianLalli/group-project-3",
       image: Project5,
     },
     {
