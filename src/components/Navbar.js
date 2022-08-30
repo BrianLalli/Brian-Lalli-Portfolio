@@ -19,7 +19,7 @@ const links = [
     {
         name: "BL",
         type: 'initials',
-        to: '/',
+        to: '/brian-lalli-portfolio/',
         active: 'home'
     },
     {
