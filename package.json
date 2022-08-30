@@ -1,7 +1,7 @@
 {
   "name": "brian-lalli-portfolio",
   "version": "0.1.0",
-  "homepage": "https://BrianLalli.github.io/brian-lalli-portfolio",
+  "homepage": "https://brianlalli.github.io/Brian-Lalli-Portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
