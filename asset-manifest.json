@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Brian-Lalli-Portfolio/static/css/main.73f09c39.css",
-    "main.js": "/Brian-Lalli-Portfolio/static/js/main.562ba8fc.js",
+    "main.js": "/Brian-Lalli-Portfolio/static/js/main.c2beb3dc.js",
     "static/js/787.79c2c88d.chunk.js": "/Brian-Lalli-Portfolio/static/js/787.79c2c88d.chunk.js",
     "static/media/self.png": "/Brian-Lalli-Portfolio/static/media/self.5b8fd85d7d5689e53221.png",
     "static/media/Project2.png": "/Brian-Lalli-Portfolio/static/media/Project2.62c1fa5e5058f9b46855.png",
@@ -13,11 +13,11 @@
     "static/media/Project3.png": "/Brian-Lalli-Portfolio/static/media/Project3.804afd29b755cc3f900f.png",
     "index.html": "/Brian-Lalli-Portfolio/index.html",
     "main.73f09c39.css.map": "/Brian-Lalli-Portfolio/static/css/main.73f09c39.css.map",
-    "main.562ba8fc.js.map": "/Brian-Lalli-Portfolio/static/js/main.562ba8fc.js.map",
+    "main.c2beb3dc.js.map": "/Brian-Lalli-Portfolio/static/js/main.c2beb3dc.js.map",
     "787.79c2c88d.chunk.js.map": "/Brian-Lalli-Portfolio/static/js/787.79c2c88d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73f09c39.css",
-    "static/js/main.562ba8fc.js"
+    "static/js/main.c2beb3dc.js"
   ]
 }
