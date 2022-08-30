@@ -3,6 +3,9 @@
 ## Project Description
 Portfolio built with React showcasing 6 of my proudest projects.
 
+## Deployed Link
+Click [here]() to view my portfolio.
+
 ## Demo
 Click the link below to see a demo of the application.
 
