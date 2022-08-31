@@ -1,10 +1,10 @@
 # React Portfolio
 
 ## Project Description
-Portfolio built with React showcasing 6 of my proudest projects.
+Portfolio built with React showcasing 6 of my proudest coding accomplishments.
 
 ## Deployed Link
-Click [here]() to view my portfolio.
+Click [here](https://brianlalli.github.io/brian-lalli-portfolio/) to view my portfolio.
 
 ## Demo
 Click the link below to see a demo of the application.
