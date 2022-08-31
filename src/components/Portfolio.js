@@ -38,14 +38,14 @@ const info = {
     {
       title: "Project 3",
       description: "React Bucket List",
-      live: "https://github.com/BrianLalli/bucket-list",
+      live: "https://brianlalli.github.io/bucket-list/",
       source: "https://github.com/BrianLalli/bucket-list",
       image: Project3,
     },
     {
       title: "Project 4",
       description: "Text Editor PWA",
-      live: "https://github.com/BrianLalli/text-editor",
+      live: "https://text-editor-pwa-bl.herokuapp.com/",
       source: "https://github.com/BrianLalli/text-editor",
       image: Project4,
     },
