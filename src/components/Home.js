@@ -3,20 +3,20 @@ import Style from "./Home.module.scss";
 import me from "../img/self.png";
 import classNames from "classnames";
 import { Box } from "@mui/material";
-// import {info} from "../../info/Info";
+import EmojiBullet from "./EmojiBullet";
+import SocialIcon from "./SocialIcon";
 
-let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+let colors = ["rgb(1,189,217)","rgb(3,140,76)"];
 
 const info = {
   firstName: "Brian",
   lastName: "Lalli",
-  initials: "bl", // the example uses first and last, but feel free to use three or more if you like.
+  initials: "bl", 
   position: "a Program Manager",
-  selfPortrait: "self", // don't change this unless you want to name your self-portrait in the "img" folder something else!
-  gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+  selfPortrait: "self", 
+  gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
   baseColor: colors[0],
   miniBio: [
-    // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
       emoji: "☕ 🍵",
       text: "Fueled by coffee & greens",
@@ -25,10 +25,10 @@ const info = {
       emoji: "🌎 🤠",
       text: "Based in Austin,TX",
     },
-    // {
-    //   emoji: "💼 👨‍💻",
-    //   text: "Principal Program Manager @ Whole Foods Market",
-    // },
+    {
+      emoji: "💼 👨‍💻",
+      text: "Senior Program Manager @ Whole Foods Market",
+    },
     {
       emoji: "📧 📱",
       text: "bdlalli11@gmail.com",
@@ -39,67 +39,35 @@ const info = {
     }
   ],
   socials: [
+    // {
+    //   link: "https://facebook.com",
+    //   icon: "fa fa-facebook",
+    //   label: "facebook",
+    // },
+    // {
+    //   link: "https://instagram.com",
+    //   icon: "fa fa-instagram",
+    //   label: "instagram",
+    // },
     {
-      link: "https://facebook.com",
-      icon: "fa fa-facebook",
-      label: "facebook",
-    },
-    {
-      link: "https://instagram.com",
-      icon: "fa fa-instagram",
-      label: "instagram",
-    },
-    {
-      link: "https://github.com",
+      link: "https://github.com/BrianLalli",
       icon: "fa fa-github",
       label: "github",
     },
     {
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/brianlalli11/",
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
     {
-      link: "https://twitter.com",
+      link: "https://twitter.com/brianlalli11",
       icon: "fa fa-twitter",
       label: "twitter",
     },
-    // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-    // Just change the links so that they lead to your social profiles.
   ],
 };
 
-function EmojiBullet(props) {
-  const { emoji, text } = props;
 
-  return (
-    <Box
-      component={"li"}
-      fontSize={"1rem"}
-      lineHeight={1.5}
-      style={{ cursor: "default" }}
-    >
-      <Box
-        component={"span"}
-        aria-label="cheese"
-        role="img"
-        mr={{ xs: "0.5rem", md: "1rem" }}
-        fontSize={"1.5rem"}
-      >
-        {emoji}
-      </Box>{" "}
-      {text}
-    </Box>
-  );
-}
-function SocialIcon(props) {
-  const { link, icon, label } = props;
-  return (
-    <a target="_blank" aria-label={label} rel="noopener noreferrer" href={link}>
-      <i className={icon} aria-hidden="true" />
-    </a>
-  );
-}
 
 export default function Home() {
   return (

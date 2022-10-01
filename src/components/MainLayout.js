@@ -33,8 +33,7 @@ export default function MainLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>Credit to;<a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
-                  <p>&copy; 2022</p>
+                  <p>Credit to: <a href={'https://paytonpierce.dev'}>Payton Pierce &copy; 2022</a></p>
                </Box>
             </Grid>
          </Grid>

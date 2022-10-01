@@ -3,24 +3,23 @@ import Style from './Navbar.module.scss';
 import Toggler from "./Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
-// import {info} from "../info/Info";
 
 const links = [
-    {
-        name: 'Home',
-        to: '/brian-lalli-portfolio/',
-        active: 'home'
-    },
-    {
-        name: 'About Me',
-        to: '/brian-lalli-portfolio/about',
-        active: 'about'
-    },
     {
         name: "BL",
         type: 'initials',
         to: '/brian-lalli-portfolio/',
         active: 'home'
+    },
+    // {
+    //     name: 'Home',
+    //     to: '/brian-lalli-portfolio/',
+    //     active: 'home'
+    // },
+    {
+        name: 'About Me',
+        to: '/brian-lalli-portfolio/about',
+        active: 'about'
     },
     {
         name: 'Portfolio',
