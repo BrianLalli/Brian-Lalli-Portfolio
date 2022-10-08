@@ -6,7 +6,7 @@ import { Box } from "@mui/material";
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 
-let colors = ["rgb(1,189,217)","rgb(3,140,76)"];
+let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 const info = {
   firstName: "Brian",
