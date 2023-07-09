@@ -35,7 +35,7 @@ const info = {
     },
     {
       emoji: "🐕 🌙",
-      text: "Dog Dad to a 1 year old Rottsky named Moonie"
+      text: "Girl Dad to Aaliyah June and a Rottsky named Moonie"
     }
   ],
   socials: [

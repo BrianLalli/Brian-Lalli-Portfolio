@@ -8,6 +8,8 @@ import Project3 from "../img/Project3.png";
 import Project4 from "../img/Project4.png";
 import Project5 from "../img/Project 5.png";
 import Project6 from "../img/Project6.png";
+import Project7 from "../img/Project7.png";
+import Project8 from "../img/Project8.png";
 
 let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -21,6 +23,20 @@ const info = {
   baseColor: colors[0],
   portfolio: [
     // This is where your portfolio projects will be detailed
+    {
+      title: "oogl",
+      description: "Logo Guessing Game",
+      live: "https://ooglapp.godaddysites.com/",
+      source: "https://github.com/BrianLalli/Logo-Guessing-Game",
+      image: Project7,
+    },
+    {
+      title: "Gator Glass",
+      description: "E-Commerce Glass Art Website",
+      live: "https://www.gator-glass.com/",
+      source: "view-source:https://www.gator-glass.com/",
+      image: Project8,
+    },
     {
       title: "Baes",
       description: "Virtual Romantic Assistant",

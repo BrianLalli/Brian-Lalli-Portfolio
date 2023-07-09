@@ -14,7 +14,7 @@ const info = {
     selfPortrait: "self", // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    bio: "Hello! I'm Brian. I'm a Senior Program Manager for Whole Foods Market. I studied Economics at Colgate, and recently became a full stack web developer! ",
+    bio: "Hello! I'm Brian. I'm a Senior Program Manager for Whole Foods Market. I studied Economics at Colgate, and enjoy building applications that make my life simpler!",
     skills: {
     proficientWith: [
       "javascript",
@@ -31,7 +31,7 @@ const info = {
       "graphQL",
       "nodejs"
     ],
-    exposedTo: ["AWS", "python", "adobe illustrator"],
+    exposedTo: ["AWS", "python", "adobe illustrator", "Tableau"],
   },
   hobbies: [
     {
